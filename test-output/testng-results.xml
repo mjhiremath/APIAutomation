@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="58" started-at="2020-02-12T04:38:31Z" finished-at="2020-02-12T04:38:31Z">
+  <suite name="Default suite" duration-ms="17017" started-at="2020-02-12T10:48:56Z" finished-at="2020-02-12T10:49:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="58" started-at="2020-02-12T04:38:31Z" finished-at="2020-02-12T04:38:31Z">
-      <class name="com.api.testng.UsersApi.AppTest">
-        <test-method status="PASS" signature="exampleOfTestNgMaven()[pri:0, instance:com.api.testng.UsersApi.AppTest@6d00a15d]" name="exampleOfTestNgMaven" duration-ms="18" started-at="2020-02-12T04:38:31Z" finished-at="2020-02-12T04:38:31Z">
+    <test name="Default test" duration-ms="17017" started-at="2020-02-12T10:48:56Z" finished-at="2020-02-12T10:49:13Z">
+      <class name="com.api.testng.UsersApi.ApiTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.api.testng.UsersApi.ApiTest@675d3402]" name="setUp" is-config="true" duration-ms="10130" started-at="2020-02-12T10:48:56Z" finished-at="2020-02-12T10:49:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- exampleOfTestNgMaven -->
-      </class> <!-- com.api.testng.UsersApi.AppTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.api.testng.UsersApi.ApiTest@675d3402]" name="test" duration-ms="2443" started-at="2020-02-12T10:49:06Z" finished-at="2020-02-12T10:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.api.testng.UsersApi.ApiTest@675d3402]" name="tearDown" is-config="true" duration-ms="4426" started-at="2020-02-12T10:49:09Z" finished-at="2020-02-12T10:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.api.testng.UsersApi.ApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
