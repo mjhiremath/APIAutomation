@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4649" started-at="2020-02-13T17:17:36Z" finished-at="2020-02-13T17:17:41Z">
+  <suite name="Default suite" duration-ms="3158" started-at="2020-02-13T17:30:45Z" finished-at="2020-02-13T17:30:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4649" started-at="2020-02-13T17:17:36Z" finished-at="2020-02-13T17:17:41Z">
-      <class name="com.api.testng.UsersApi.PostAPI">
-        <test-method status="PASS" signature="numberpost()[pri:0, instance:com.api.testng.UsersApi.PostAPI@6d8a00e3]" name="numberpost" duration-ms="4639" started-at="2020-02-13T22:47:37Z" finished-at="2020-02-13T22:47:41Z">
+    <test name="Default test" duration-ms="3158" started-at="2020-02-13T17:30:45Z" finished-at="2020-02-13T17:30:49Z">
+      <class name="com.api.testng.UsersApi.GetAPI">
+        <test-method status="PASS" signature="testapi()[pri:0, instance:com.api.testng.UsersApi.GetAPI@6d8a00e3]" name="testapi" duration-ms="3148" started-at="2020-02-13T23:00:45Z" finished-at="2020-02-13T23:00:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- numberpost -->
-      </class> <!-- com.api.testng.UsersApi.PostAPI -->
+        </test-method> <!-- testapi -->
+      </class> <!-- com.api.testng.UsersApi.GetAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.api.testng.UsersApi.PostAPI">
+      <class name="com.api.testng.UsersApi.GetAPI">
         <methods>
-          <include name="numberpost"/>
+          <include name="testapi"/>
         </methods>
-      </class> <!-- com.api.testng.UsersApi.PostAPI -->
+      </class> <!-- com.api.testng.UsersApi.GetAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
