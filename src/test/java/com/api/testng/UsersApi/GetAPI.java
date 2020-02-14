@@ -14,7 +14,7 @@ import io.restassured.specification.RequestSpecification;
 public class GetAPI {
     
     @Test
-    public void testapi()
+    public void addressassignment()
     {
     	 RestAssured.baseURI = "";
          //Request
@@ -32,7 +32,7 @@ public class GetAPI {
          System.out.println(responseBody);
          int code = response.getStatusCode();
          System.out.print("The Status code is "+code);
-         AssertJUnit.assertEquals(200, code); 
+         Assert.assertEquals(200, code); 
          String Statusline= response.statusLine();
          System.out.println(" "+Statusline);
     }

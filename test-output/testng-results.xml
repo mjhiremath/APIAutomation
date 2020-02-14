@@ -1,62 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8819" started-at="2020-02-14T13:35:40Z" finished-at="2020-02-14T13:35:49Z">
+  <suite name="Default suite" duration-ms="5316" started-at="2020-02-14T17:29:26Z" finished-at="2020-02-14T17:29:32Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8819" started-at="2020-02-14T13:35:40Z" finished-at="2020-02-14T13:35:49Z">
+    <test name="Default test" duration-ms="5316" started-at="2020-02-14T17:29:26Z" finished-at="2020-02-14T17:29:32Z">
       <class name="com.api.testng.UsersApi.GetAPI">
-        <test-method status="PASS" signature="testapi()[pri:0, instance:com.api.testng.UsersApi.GetAPI@548b7f67]" name="testapi" duration-ms="4773" started-at="2020-02-14T19:05:40Z" finished-at="2020-02-14T19:05:45Z">
+        <test-method status="PASS" signature="testapi()[pri:0, instance:com.api.testng.UsersApi.GetAPI@1810399e]" name="testapi" duration-ms="5295" started-at="2020-02-14T22:59:26Z" finished-at="2020-02-14T22:59:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testapi -->
       </class> <!-- com.api.testng.UsersApi.GetAPI -->
-      <class name="com.api.testng.UsersApi.PostAPI">
-        <test-method status="FAIL" signature="numberpost()[pri:0, instance:com.api.testng.UsersApi.PostAPI@6d00a15d]" name="numberpost" duration-ms="4033" started-at="2020-02-14T19:05:45Z" finished-at="2020-02-14T19:05:49Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Succcess] but found [DB returned 23505]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Succcess] but found [DB returned 23505]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at com.api.testng.UsersApi.PostAPI.numberpost(PostAPI.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- numberpost -->
-      </class> <!-- com.api.testng.UsersApi.PostAPI -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
