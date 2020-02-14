@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
-      <class name="com.api.testng.UsersApi.GetAPI">
+      <class name="com.api.testng.UsersApi.PostAPI">
         <methods>
-          <include name="testapi"/>
+          <include name="numberpost"/>
         </methods>
-      </class> <!-- com.api.testng.UsersApi.GetAPI -->
+      </class> <!-- com.api.testng.UsersApi.PostAPI -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

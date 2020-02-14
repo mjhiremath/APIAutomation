@@ -1,5 +1,6 @@
 package com.api.testng.UsersApi;
-
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -24,16 +25,14 @@ public class GetAPI {
          requestParameter.put("sip_password", "J93cu5f");
          
          httprequest.header("Content-type","application/json");
-         
          httprequest.body(requestParameter.toJSONString());
-         
          //response
          Response response = httprequest.request(Method.GET,"https://5alive.moviuscorp.net:8021/adk/services/messaging/addressassignments");
          String responseBody= response.body().asString();
          System.out.println(responseBody);
          int code = response.getStatusCode();
          System.out.print("The Status code is "+code);
-         Assert.assertEquals(200, code); 
+         AssertJUnit.assertEquals(200, code); 
          String Statusline= response.statusLine();
          System.out.println(" "+Statusline);
     }

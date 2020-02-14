@@ -1,5 +1,7 @@
 package com.api.testng.UsersApi;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -26,7 +28,7 @@ public class PostAPI {
      requestParamter.put("developer", "20002001");
      
      httprequest.header("Content-type","application/json");
-     
+
      httprequest.body(requestParamter.toJSONString());
      
      Response response = httprequest.request(Method.POST,"https://5alive.moviuscorp.net:8021/adk/services/iotadmin/adddirectorynumber");
@@ -35,11 +37,11 @@ public class PostAPI {
      System.out.println(responseBody);
      int code = response.getStatusCode();
      System.out.print("The Status code is  "+code);
-     Assert.assertEquals(200, code);
+     AssertJUnit.assertEquals(200, code);
      String desc = response.jsonPath().get("desc");
-     Assert.assertEquals(desc, "Succcess");
+     AssertJUnit.assertEquals(desc, "Succcess");
      int errorcode = response.jsonPath().get("errcode");
-     Assert.assertEquals(errorcode, 0);
+     AssertJUnit.assertEquals(errorcode, 0);
      String Statusline= response.statusLine();
      System.out.println(" "+Statusline);
    }

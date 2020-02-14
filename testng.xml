@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.api.testng.UsersApi.ApiTest"/>
+      <class name="com.api.testng.UsersApi.GetAPI"/>
+      <class name="com.api.testng.UsersApi.PostAPI"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
