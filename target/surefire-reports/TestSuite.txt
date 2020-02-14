@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.229 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.295 s <<< FAILURE! - in TestSuite
+com.api.testng.UsersApi.PostAPI.adddirectorynumber  Time elapsed: 2.718 s  <<< FAILURE!
+java.lang.AssertionError: expected [Succcess] but found [DB returned 23505]
+	at com.api.testng.UsersApi.PostAPI.adddirectorynumber(PostAPI.java:42)
+

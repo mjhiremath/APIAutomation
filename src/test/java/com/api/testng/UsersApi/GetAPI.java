@@ -20,10 +20,10 @@ public class GetAPI {
          //Request
          RequestSpecification httprequest = RestAssured.given();
          
+         //Body
          JSONObject requestParameter = new JSONObject();
          requestParameter.put("device_number", "916362907347");
-         requestParameter.put("sip_password", "J93cu5f");
-         
+         requestParameter.put("sip_password", "J93cu5f");     
          httprequest.header("Content-type","application/json");
          httprequest.body(requestParameter.toJSONString());
          //response
