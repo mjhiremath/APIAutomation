@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3158" started-at="2020-02-13T17:30:45Z" finished-at="2020-02-13T17:30:49Z">
+  <suite name="Default suite" duration-ms="3348" started-at="2020-02-14T05:14:23Z" finished-at="2020-02-14T05:14:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3158" started-at="2020-02-13T17:30:45Z" finished-at="2020-02-13T17:30:49Z">
+    <test name="Default test" duration-ms="3348" started-at="2020-02-14T05:14:23Z" finished-at="2020-02-14T05:14:26Z">
       <class name="com.api.testng.UsersApi.GetAPI">
-        <test-method status="PASS" signature="testapi()[pri:0, instance:com.api.testng.UsersApi.GetAPI@6d8a00e3]" name="testapi" duration-ms="3148" started-at="2020-02-13T23:00:45Z" finished-at="2020-02-13T23:00:49Z">
+        <test-method status="PASS" signature="testapi()[pri:0, instance:com.api.testng.UsersApi.GetAPI@6d8a00e3]" name="testapi" duration-ms="3339" started-at="2020-02-14T10:44:23Z" finished-at="2020-02-14T10:44:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testapi -->
